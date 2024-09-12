@@ -336,3 +336,48 @@ button:hover{
         height: 0%;
     }
 }
+/* cart start */
+.cart{
+    background-image: url('../image/inner_header_02.jpg');
+    background-color: rgba(0, 0, 0, 0.653);
+    background-blend-mode: darken;
+    padding: 150px 0 100px 0;
+    background-size: cover;
+}
+.cart p{
+    padding: 0px 20px 0px 20px;
+}
+/* cart end */
+/* contact start */
+.found{
+    background-image: url('../image/inner_header_03.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.653);
+    background-blend-mode: darken;
+    padding: 200px 0 100px 0;
+}
+.found p{
+    padding: 0px 20px 0px 20px;
+}
+.location:hover i{
+    transform: translatey(-20%);
+    transition: 0.3s;
+}
+
+/* contact end */
+/* classic blog start */
+.classic-image{
+    overflow: hidden;
+    /* padding-top: 100px; */
+}
+.classic-image:hover img{
+    transform: scale(1.1);
+    transition: 0.4s;
+    overflow: hidden;
+}
+.classic .classic-content h2:hover{
+    color: #457D4C;
+    transition: 0.2s;
+}
+
+/* classic blog end */
